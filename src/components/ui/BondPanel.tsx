@@ -10,6 +10,8 @@ import {
   verbFor,
 } from '../../lib/theme';
 import { hasPortrait, portraitUrl } from '../../lib/portraits';
+import { ListenButton } from './ListenButton';
+import { bondSegments } from '../../lib/speechText';
 
 /**
  * The full story of one relationship: both faces, every bond between the two
@@ -44,6 +46,10 @@ export function BondPanel() {
             <h2 style={{ color: RELATION_COLOR[bond.primary.relation.type] }}>
               {bondCaption(bond.primary)}
             </h2>
+            <ListenButton
+              title={`${bond.a.name} and ${bond.b.name}`}
+              build={() => bondSegments(bond)}
+            />
             <button className="panel-close" onClick={() => setBondFocus(null)} aria-label="Close">
               ×
             </button>

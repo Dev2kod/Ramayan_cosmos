@@ -4,6 +4,8 @@ import { eventById, characterById, eventsByCharacter } from '../../data';
 import { KANDAS } from '../../data/types';
 import { FACTION_COLOR, KANDA_COLOR } from '../../lib/theme';
 import { ShlokaBlock } from './ShlokaBlock';
+import { ListenButton } from './ListenButton';
+import { eventSegments } from '../../lib/speechText';
 
 export function EventCard() {
   const activeEvent = useStore((s) => s.activeEvent);
@@ -43,6 +45,7 @@ export function EventCard() {
               {i >= 0 ? ` · ${i + 1} of ${siblings.length} in this life` : ''}
             </div>
           </div>
+          <ListenButton compact title={e.title} build={() => eventSegments(e)} />
           <button className="panel-close" style={{ position: 'static' }} onClick={() => setActiveEvent(null)}>
             ×
           </button>

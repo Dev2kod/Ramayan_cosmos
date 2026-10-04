@@ -27,6 +27,7 @@ import { About } from './components/ui/About';
 import { BondCard } from './components/ui/BondCard';
 import { BondPanel } from './components/ui/BondPanel';
 import { MobileSheet } from './components/ui/MobileSheet';
+import { SpeechBar } from './components/ui/SpeechBar';
 import { cancelBondHover } from './lib/bondHover';
 import './components/ui/ui.css';
 
@@ -145,6 +146,7 @@ export default function App() {
           {layer === 'character' && <EventCard />}
 
           <About />
+          <SpeechBar />
           <BottomBar />
         </>
       )}

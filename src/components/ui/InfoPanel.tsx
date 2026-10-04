@@ -3,6 +3,8 @@ import { useStore, type Facet } from '../../store';
 import { characterById, relationsByCharacter, eventsByCharacter } from '../../data';
 import { FACTION_COLOR, FACTION_LABEL, RELATION_COLOR, RELATION_LABEL, SPECIES_LABEL } from '../../lib/theme';
 import { ShlokaBlock } from './ShlokaBlock';
+import { ListenButton } from './ListenButton';
+import { facetSegments } from '../../lib/speechText';
 import { KANDAS, type RelationType } from '../../data/types';
 
 const TITLES: Record<Exclude<Facet, null>, string> = {
@@ -39,6 +41,7 @@ export function InfoPanel() {
               {c.name} · {FACTION_LABEL[c.faction]} · {SPECIES_LABEL[c.species]}
             </div>
             <h2 style={{ color: FACTION_COLOR[c.faction] }}>{TITLES[facet]}</h2>
+            <ListenButton title={`${c.name} — ${TITLES[facet]}`} build={() => facetSegments(c, facet)} />
             <button className="panel-close" onClick={() => setFacet(null)} aria-label="Close">
               ×
             </button>
