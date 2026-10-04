@@ -409,6 +409,19 @@ input[type='range']::-webkit-slider-thumb {
   color: var(--saffron);
 }
 
+/* On touch the card is a tap-preview with real buttons, so unlike the
+   pointer-following desktop version it has to accept input. */
+@media (hover: none), (pointer: coarse) {
+  .hovercard {
+    pointer-events: auto;
+  }
+}
+.hovercard-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 13px;
+}
+
 /* ===================== Bond card ===================== */
 /* The wrapper is invisible but pointer-active: its padding bridges the gap
    between the 3D portal and the card, so the cursor never crosses dead space
@@ -1019,17 +1032,297 @@ input[type='range']::-webkit-slider-thumb {
   z-index: 40;
 }
 
+/* ===================== Mobile sheet ===================== */
+.sheet-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 34;
+  background: rgba(3, 4, 12, 0.55);
+  backdrop-filter: blur(2px);
+}
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 35;
+  max-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-strong);
+  backdrop-filter: blur(30px) saturate(150%);
+  border-top: 1px solid var(--hair);
+  border-radius: 20px 20px 0 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.sheet-grip {
+  width: 42px;
+  height: 4px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.22);
+  margin: 10px auto 4px;
+  flex: none;
+}
+.sheet-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex: none;
+}
+.sheet-tab {
+  flex: 1;
+  border: none;
+  background: none;
+  color: var(--ink-faint);
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  padding: 9px 6px;
+  border-radius: 9px;
+}
+.sheet-tab[data-on='true'] {
+  background: rgba(255, 207, 107, 0.14);
+  color: var(--gold);
+}
+.sheet-close {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink-dim);
+  font-size: 17px;
+  line-height: 1;
+}
+.sheet-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 16px 28px;
+}
+.sheet-rel {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  padding: 11px 4px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+.sheet-rel b {
+  display: block;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 13px;
+}
+.sheet-rel-gloss {
+  display: block;
+  font-size: 11px;
+  color: var(--ink-faint);
+  line-height: 1.5;
+  margin-top: 2px;
+}
+.sheet-ev {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  text-align: left;
+  padding: 9px 4px;
+  background: none;
+  border: none;
+  font-size: 12.5px;
+  color: var(--ink-dim);
+}
+.sheet-ev:active {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ===================== Mobile layout ===================== */
 @media (max-width: 860px) {
-  .rail {
-    display: none;
-  }
+  /* The rail and legend move into the pull-up sheet rather than vanishing. */
+  .rail,
   .legend {
     display: none;
   }
+
+  .topbar {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+  .brand {
+    padding: 9px 11px;
+    flex: none;
+  }
+  .brand-txt b {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+  }
+  /* "VALMIKI · 3D ATLAS" wrapped onto three lines and ate the header. */
+  .brand-txt span {
+    display: none;
+  }
+  .brand-om {
+    font-size: 19px;
+  }
+
+  .search {
+    width: auto;
+    flex: 1;
+    min-width: 0;
+  }
+  .search input {
+    padding: 11px 12px 11px 34px;
+    font-size: 16px; /* iOS zooms the page for anything under 16px */
+  }
+  .search-icon {
+    left: 11px;
+  }
+  .results {
+    max-height: 54vh;
+  }
+
+  /* Breadcrumb sat on top of the logo; give it its own line. */
+  .crumbs {
+    top: 60px;
+    max-width: calc(100vw - 20px);
+    padding: 6px 11px;
+    font-size: 11px;
+  }
+
   .panel {
     width: 100vw;
+    border-left: none;
   }
-  .search {
-    width: 48vw;
+  .panel-head {
+    padding: 20px 18px 14px;
+  }
+  .panel-head h2 {
+    font-size: 21px;
+  }
+  .panel-body {
+    padding: 18px 18px 40px;
+  }
+
+  .hovercard {
+    width: min(300px, calc(100vw - 24px));
+  }
+
+  .eventcard {
+    bottom: 92px;
+    width: calc(100vw - 20px);
+    max-height: 46vh;
+  }
+  .eventcard-head {
+    padding: 14px 16px 11px;
+  }
+  .eventcard h3 {
+    font-size: 16px;
+  }
+  .eventcard-body {
+    padding: 13px 16px 16px;
+  }
+
+  .bondcard {
+    width: min(320px, calc(100vw - 28px));
+  }
+
+  .drawer {
+    max-height: 72vh;
+  }
+  .drawer-head {
+    padding: 14px 16px 0;
+  }
+  .drawer-body {
+    padding: 14px 16px 30px;
+  }
+  .ev-row {
+    grid-template-columns: 44px 1fr;
+    gap: 11px;
+  }
+
+  /* Icon bar, pinned clear of the home indicator. */
+  .bottombar {
+    bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+    padding: 5px;
+    gap: 2px;
+    max-width: calc(100vw - 20px);
+  }
+  .bottombar--mobile {
+    display: flex;
+  }
+  .bbm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    min-width: 64px;
+    padding: 8px 6px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    background: none;
+    color: var(--ink-dim);
+    font-size: 15px;
+    line-height: 1;
+  }
+  .bbm em {
+    font-style: normal;
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .bbm[data-on='true'] {
+    background: rgba(255, 207, 107, 0.14);
+    color: var(--gold);
+    border-color: rgba(255, 207, 107, 0.26);
+  }
+  .bbm[data-on='true'] em {
+    color: var(--gold);
+  }
+  .bbm:disabled {
+    opacity: 0.35;
+  }
+
+  .intro-inner {
+    padding: 0 22px;
+  }
+  .intro-stats {
+    gap: 20px;
+  }
+  .intro p {
+    font-size: 13.5px;
+    line-height: 1.75;
+  }
+
+  /* Comfortable tap targets throughout. */
+  .chip {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .who,
+  .who-read {
+    min-height: 32px;
+  }
+}
+
+/* Very narrow phones */
+@media (max-width: 400px) {
+  .bbm {
+    min-width: 56px;
+  }
+  .intro-stats {
+    gap: 14px;
+  }
+  .intro-stat b {
+    font-size: 25px;
   }
 }

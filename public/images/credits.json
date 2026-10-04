@@ -17,14 +17,6 @@
     "license": "Public domain",
     "provider": "wikimedia"
   },
-  "aja": {
-    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Aja_Barber.jpg/1280px-Aja_Barber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Aja_Barber.jpg",
-    "title": "Aja Barber",
-    "artist": "Stemaxc",
-    "license": "CC BY 4.0",
-    "provider": "wikimedia"
-  },
   "akshayakumara": {
     "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ramlila_actors_as_Akshayakumara_and_Ravana.jpg/1280px-Ramlila_actors_as_Akshayakumara_and_Ravana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Ramlila_actors_as_Akshayakumara_and_Ravana.jpg",
@@ -405,14 +397,6 @@
     "title": "COLLECTIE TROPENMUSEUM Houten wajangpop voorstellende Prahasta TMnr 4283-40",
     "artist": "Tropenmuseum",
     "license": "CC BY-SA 3.0",
-    "provider": "wikimedia"
-  },
-  "raghu": {
-    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Raghu_Rai_pix_by_Vikramjit_Kakati.jpg/1280px-Raghu_Rai_pix_by_Vikramjit_Kakati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Raghu_Rai_pix_by_Vikramjit_Kakati.jpg",
-    "title": "Raghu Rai pix by Vikramjit Kakati",
-    "artist": "Vikramjit Kakati",
-    "license": "CC BY-SA 4.0",
     "provider": "wikimedia"
   },
   "rama": {

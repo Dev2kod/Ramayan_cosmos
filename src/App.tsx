@@ -26,6 +26,7 @@ import { Legend } from './components/ui/Legend';
 import { About } from './components/ui/About';
 import { BondCard } from './components/ui/BondCard';
 import { BondPanel } from './components/ui/BondPanel';
+import { MobileSheet } from './components/ui/MobileSheet';
 import { cancelBondHover } from './lib/bondHover';
 import './components/ui/ui.css';
 
@@ -65,6 +66,7 @@ export default function App() {
         else if (s.bondFocus) s.setBondFocus(null);
         else if (s.facet) s.setFacet(null);
         else if (s.activeEvent) s.setActiveEvent(null);
+        else if (s.showSheet) st({ showSheet: false });
         else if (s.showKandaDrawer) st({ showKandaDrawer: false });
         else if (s.layer === 'character') back();
       } else if (e.key === ' ' && s.layer === 'character') {
@@ -134,6 +136,7 @@ export default function App() {
           <AnimatePresence>{layer === 'cosmos' && <HoverCard key="hover" />}</AnimatePresence>
           {layer === 'cosmos' && <Legend />}
           {layer === 'cosmos' && <KandaDrawer />}
+          <MobileSheet />
 
           <AnimatePresence>{layer === 'character' && <Breadcrumb key="crumbs" />}</AnimatePresence>
           {layer === 'character' && <InfoPanel />}

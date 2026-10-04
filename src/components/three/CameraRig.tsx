@@ -45,13 +45,23 @@ export function CameraRig({
   useEffect(() => {
     if (!target || !controls.current) return;
     const look = new THREE.Vector3(...target.look);
+    // A portrait phone has a far narrower *horizontal* field of view than a
+    // desktop window, so the same distance frames much less of the scene and
+    // everything spills off the sides. Pull back by the aspect shortfall.
+    // Only partly: a portrait screen also has vertical room to spend, so
+    // compensating for the full horizontal shortfall leaves the subject
+    // marooned in the middle of an empty frame.
+    const cam = camera as THREE.PerspectiveCamera;
+    const a = cam.aspect || 1.6;
+    const widen = a < 1.4 ? Math.min(1.85, 1 + (1.4 / Math.max(a, 0.4) - 1) * 0.42) : 1;
     let eye: THREE.Vector3;
     if (target.eye) {
       eye = new THREE.Vector3(...target.eye);
+      if (widen > 1) eye.sub(look).multiplyScalar(widen).add(look);
     } else {
       const dir = new THREE.Vector3().subVectors(camera.position, controls.current.target);
       if (dir.lengthSq() < 1e-6) dir.set(0, 0, 1);
-      dir.normalize().multiplyScalar(target.dist ?? 24);
+      dir.normalize().multiplyScalar((target.dist ?? 24) * widen);
       eye = look.clone().add(dir);
     }
     anim.current = {

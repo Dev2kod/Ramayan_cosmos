@@ -109,6 +109,13 @@ function Node({
         }}
         onClick={(e) => {
           e.stopPropagation();
+          // Touch has no hover, so the first tap previews the character (the
+          // card carries an Enter button) and only a second tap commits.
+          if ((e as any).pointerType !== 'mouse') {
+            if (hovered) onSelect(node.id);
+            else onHover(node.id);
+            return;
+          }
           onSelect(node.id);
         }}
       >

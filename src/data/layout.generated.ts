@@ -2,7 +2,7 @@
 // Re-run `npm run bake` after changing characters or relations.
 //
 // Baked positions for the cosmos graph: 118 nodes, computed in
-// 2484ms at build time so the browser never pays for it.
+// 2234ms at build time so the browser never pays for it.
 
 export const BAKED_SIGNATURE = '1wxhdml';
 

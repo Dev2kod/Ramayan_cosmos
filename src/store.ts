@@ -33,6 +33,8 @@ interface State {
   showLegend: boolean;
   showKandaDrawer: boolean;
   showCredits: boolean;
+  /** The mobile filter/legend sheet. */
+  showSheet: boolean;
 
   enter: () => void;
   openCharacter: (id: string) => void;
@@ -78,6 +80,7 @@ export const useStore = create<State>((set, get) => ({
   showLegend: true,
   showKandaDrawer: false,
   showCredits: false,
+  showSheet: false,
 
 
   enter: () => set({ layer: 'cosmos' }),
