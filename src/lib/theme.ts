@@ -179,6 +179,19 @@ export const SPECIES_LABEL: Record<Species, string> = {
   nature: 'Elemental',
 };
 
+/**
+ * Events that happen *before* the epic opens — Ravana's boon, Hanuman's
+ * childhood, Vali and Dundubhi, the curses that bind people later.
+ *
+ * These carry the kanda that *narrates* them, which is usually a late one:
+ * Agastya tells Ravana's origins in Uttara Kanda, Jambavan tells Hanuman's in
+ * Kishkindha. A life timeline runs chronologically, so colouring them by their
+ * narrating book put a purple Uttara bead at the very start of Ravana's life
+ * and made the whole spiral look shuffled. They get their own muted colour,
+ * and the card says which book tells the story.
+ */
+export const PREHISTORY_COLOR = '#7b84a8';
+
 export const KANDA_COLOR: Record<Kanda, string> = {
   bala: '#ffd98a',
   ayodhya: '#ffb05c',
@@ -188,6 +201,14 @@ export const KANDA_COLOR: Record<Kanda, string> = {
   yuddha: '#e8503a',
   uttara: '#b07aff',
 };
+
+/** True for an episode that happens before the frame story opens. */
+export const isPrehistory = (e: { order: number }) => e.order < 0;
+
+/** The colour a timeline bead should use: era, not narrating book. */
+export function eventColor(e: { kanda: Kanda; order: number }): string {
+  return isPrehistory(e) ? PREHISTORY_COLOR : KANDA_COLOR[e.kanda] ?? '#ffcf6b';
+}
 
 /** #rrggbb -> [r,g,b] in 0..1 */
 export function rgb(hex: string): [number, number, number] {

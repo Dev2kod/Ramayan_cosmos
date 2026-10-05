@@ -105,7 +105,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.14',
     order: 226,
-    characterIds: ['rama', 'sita', 'lakshmana', 'jatayu', 'dasharatha', 'sampati', 'garuda'],
+    characterIds: ['rama', 'sita', 'lakshmana', 'jatayu', 'dasharatha', 'sampati'],
     location: 'On the road to Panchavati',
     description:
       'A vulture of enormous size is sitting in their path, and Lakshmana reaches for his bow before the bird speaks. He names himself Jatayu, son of Aruna, brother of Sampati, and an old friend of Dasharatha, and recites the whole genealogy of the beings from Kashyapa and Daksha down to the birds. He offers to guard Sita whenever the brothers are away gathering food. Rama embraces him and accepts.',
@@ -199,7 +199,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.35-41',
     order: 250,
-    characterIds: ['ravana', 'maricha', 'rama', 'sita', 'vishwamitra'],
+    characterIds: ['ravana', 'maricha', 'rama', 'sita'],
     location: "Maricha's hermitage on the southern shore",
     description:
       'Maricha, living as an ascetic on the sea-coast, remembers Rama as a boy of twelve who shot him with the manava astra and flung him a hundred yojanas into the sea, and he argues at length that Ravana is seeking his own extinction. Ravana returns a second time and simply orders him to become a golden deer, adding that disobedience means death at his hands now. Maricha chooses to die by Rama, saying "better to be killed by an enemy than by a kinsman," and warns Ravana that he is destroying Lanka, his brothers and himself. He then takes the form of a deer with silver spots and jewelled horns.',
@@ -279,7 +279,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.49-51',
     order: 270,
-    characterIds: ['jatayu', 'ravana', 'sita', 'rama', 'dasharatha'],
+    characterIds: ['jatayu', 'ravana', 'sita', 'rama'],
     location: 'The air above Janasthana',
     description:
       'The old vulture wakes on his tree, sees Sita in the chariot and challenges Ravana in the language of a kshatriya: he is sixty thousand years old, he says, and Ravana is a thief stealing another man\'s wife while that man is away. He breaks Ravana\'s bow, kills the mules and the charioteer and smashes the chariot so that Ravana falls to the ground with Sita in his arms. Then Ravana draws a dagger and cuts off the bird\'s wings, feet and flanks, and Jatayu drops. Ravana takes Sita up again, and as he flies south she throws her upper garment and ornaments down among five vanaras seated on a hilltop.',
@@ -317,7 +317,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.69-73',
     order: 278,
-    characterIds: ['rama', 'lakshmana', 'kabandha', 'sugriva', 'hanuman', 'indra', 'shabari'],
+    characterIds: ['rama', 'lakshmana', 'kabandha', 'sugriva', 'indra', 'shabari'],
     location: 'The Krauncha forest',
     description:
       'A headless trunk with a single eye in its chest and arms a yojana long catches both brothers at once. They cut off both arms at the shoulder, and the creature asks who they are; hearing the name Rama, he rejoices, for a curse of Sthulashiras and a blow of Indra\'s thunderbolt had driven his head into his body and he had been promised release at Rama\'s hands. They burn him in a pit, and he rises from the smoke in his own gandharva shape. From the air he gives the single most useful instruction of the Aranya Kanda: go west to Pampa, find Sugriva on Rishyamukha, make him your friend, and he will find Sita for you — and on the way, visit Shabari.',
@@ -349,7 +349,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.1',
     order: 302,
-    characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'vali', 'sita'],
+    characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'vali'],
     location: 'Lake Pampa, below Mount Rishyamukha',
     description:
       'Rama walks the flowering shore of Pampa and the beauty of it makes his grief worse; he tells Lakshmana that the kokila and the breeze and the lotus pollen are torture to a man whose wife is gone. From the slopes of Rishyamukha, Sugriva and his four surviving ministers see two armed men in bark cloth coming and take fright, certain that Vali has sent assassins. Sugriva leaps from peak to peak in panic. Hanuman is sent down to find out who they are.',
@@ -387,7 +387,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.5',
     order: 310,
-    characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'vali', 'ruma', 'tara'],
+    characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'vali', 'ruma'],
     location: 'Rishyamukha',
     description:
       'Hanuman kindles a fire of sala wood and Rama and Sugriva walk around it together and clasp hands. Sugriva tells how Vali shut him out of the cave of Mayavi, drove him from Kishkindha, seized his wife Ruma and hunted him over the whole earth until he found the one hill Vali cannot climb because of Matanga\'s curse. Rama promises to kill Vali; Sugriva promises to find Sita with the whole vanara nation. Valmiki makes the agreement explicitly contractual, with each obligation named.',
@@ -401,7 +401,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.6',
     order: 314,
-    characterIds: ['sugriva', 'rama', 'lakshmana', 'sita', 'hanuman', 'ravana'],
+    characterIds: ['sugriva', 'rama', 'lakshmana', 'sita', 'hanuman'],
     location: 'Rishyamukha',
     description:
       'Sugriva tells Rama that some time ago he and four companions sitting on this hill saw a rakshasa flying south with a struggling woman, who dropped a bundle of ornaments wrapped in her upper garment among them. He fetches it and unties it. Rama takes the jewels and faints; when he can speak he says he cannot recognise the bracelets or the necklace, because he never looked higher than her feet, but the anklets he knows at once. Lakshmana identifies them the same way.',
@@ -429,7 +429,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.14-15',
     order: 322,
-    characterIds: ['sugriva', 'vali', 'rama', 'lakshmana', 'hanuman', 'tara'],
+    characterIds: ['sugriva', 'vali', 'rama', 'lakshmana', 'hanuman', 'tara', 'angada'],
     location: 'Outside the gate of Kishkindha',
     description:
       'Sugriva roars a challenge at the gate; Vali comes out despite Tara, who has heard from Angada that Sugriva has allied with Rama and begs him not to fight. The brothers close, and Rama, standing in cover with an arrow fitted, cannot tell them apart — they are identical in shape, ornaments, voice and gait — and lets the string go slack. Vali beats Sugriva nearly to death and Sugriva flees back to Rishyamukha, furious at being sent into a trap. Lakshmana ties a garland of flowering gajapushpi creeper round Sugriva\'s neck so that the second time there will be no mistake.',
@@ -565,7 +565,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.56-63',
     order: 358,
-    characterIds: ['sampati', 'jatayu', 'angada', 'hanuman', 'jambavan', 'sita', 'ravana', 'surya'],
+    characterIds: ['sampati', 'jatayu', 'angada', 'hanuman', 'jambavan', 'sita'],
     location: 'The southern shore, below the Vindhya cliffs',
     description:
       'A wingless vulture crawls down the cliff intending to eat them, and stops when he hears the name Jatayu. He is Sampati, the elder brother: the two had once raced toward the sun, and Sampati spread his wings over Jatayu to shield him and had them burnt off. Hearing that Jatayu died fighting for Sita, he performs water rites for him and then repays the debt — from this height, he says, with the sight that is left to a vulture, he can see a hundred yojanas across the water to the island of Lanka, and he can see Sita in a grove of asoka trees, guarded by rakshasis, in a yellow silk robe. As he finishes, new wings grow on him. He names the distance: a hundred yojanas of open sea.',
@@ -579,7 +579,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.64-67',
     order: 362,
-    characterIds: ['jambavan', 'hanuman', 'angada', 'vayu', 'surya', 'indra', 'anjana', 'kesari', 'brahma'],
+    characterIds: ['jambavan', 'hanuman', 'angada', 'indra', 'brahma'],
     location: 'Mount Mahendra, the southern shore',
     description:
       'Each vanara measures himself against the hundred yojanas and falls short: Gaja says ten, Gavaksha twenty, Angada can reach Lanka but doubts he can return. Hanuman sits apart, silent, because a curse laid on him in infancy has made him forget his own strength. Jambavan, the oldest creature present, turns to him and recites it back to him — the son of the Wind, who as a child leapt at the sun taking it for fruit, whom Indra struck with the thunderbolt and broke his jaw, for whom Brahma and the gods heaped boon upon boon of invulnerability. As he listens Hanuman begins to swell, roaring, until he stands on Mahendra like a second mountain.',
@@ -597,7 +597,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.1',
     order: 402,
-    characterIds: ['hanuman', 'jambavan', 'angada', 'rama', 'sita', 'vayu', 'ravana'],
+    characterIds: ['hanuman', 'jambavan', 'angada', 'rama', 'sita'],
     location: 'Mount Mahendra to the sea',
     description:
       'Hanuman presses the mountain down with his feet until trees shake loose and animals bolt and streams of mineral-coloured water run from its sides, draws in his breath, flattens his ears and springs. The trees of the slope are torn up and carried along in his wake for a while before they drop into the sea. Valmiki says he goes like an arrow shot by Rama, his shadow running over the water beneath him, his tail streaming behind like Indra\'s banner, the clouds he passes through parting in colours.',
@@ -635,7 +635,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.1',
     order: 410,
-    characterIds: ['hanuman', 'surasa', 'brahma', 'indra'],
+    characterIds: ['hanuman', 'surasa', 'indra'],
     location: 'The sky above the ocean',
     description:
       'The gods, wanting to test him, send Surasa, mother of the nagas, who rises in a hideous form and declares that Hanuman has been granted to her as food and must enter her mouth. Hanuman tells her his errand and asks to be let through, promising to return and be eaten afterwards; she refuses, citing her boon. So he grows, and she widens her jaws to match, until he has swelled to a hundred yojanas — and then he shrinks instantly to the size of a thumb, darts in and out of her mouth, and says he has fulfilled the letter of her boon. Surasa blesses him and withdraws.',
@@ -663,7 +663,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.3-4',
     order: 418,
-    characterIds: ['hanuman', 'lankini', 'ravana', 'brahma'],
+    characterIds: ['hanuman', 'lankini', 'brahma'],
     location: 'The northern gate of Lanka, on Mount Trikuta',
     description:
       'Hanuman lands on Mount Lamba and waits for nightfall, then shrinks himself to the size of a cat to slip over the wall. The tutelary goddess of the city blocks him and strikes him; he hits her once with his left fist, deliberately holding back because she is a woman, and she goes down vomiting blood. Getting up, she tells him that Brahma long ago set the sign: when a vanara overcomes her by force, the destruction of the rakshasas has begun — and she stands aside. Hanuman enters by stepping over the wall with his left foot, since an enemy\'s city is not to be entered by its gate.',
@@ -691,7 +691,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.14-17',
     order: 430,
-    characterIds: ['hanuman', 'sita', 'ravana', 'trijata', 'rama'],
+    characterIds: ['hanuman', 'sita', 'trijata', 'rama'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Having searched the whole city and failed, Hanuman comes near despair and considers what to do rather than return empty-handed, then thinks of the one place he has not looked. He gets into the walled asoka grove, climbs a simsupa tree and sees, under it, a woman in a single soiled yellow garment, emaciated, filthy, surrounded by hideous rakshasis — "like a flame wrapped in smoke," like the sliver of the moon on the first night, like a memory of wealth. He recognises her by the ornaments still on her, matching those Rama had described and those that fell on Rishyamukha. He does not speak, because speaking would frighten her and bring the guards.',
@@ -705,7 +705,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.18-24',
     order: 436,
-    characterIds: ['ravana', 'sita', 'hanuman', 'rama', 'mandodari'],
+    characterIds: ['ravana', 'sita', 'hanuman', 'rama', 'mandodari', 'trijata'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Ravana comes into the grove at night with his women and lamps and pleads, offers, flatters and finally threatens: he gives her two months, after which, he says, his cooks will cut her up for his breakfast. Sita puts a blade of grass between herself and him and will not look at him, saying he should take back what he stole before Rama burns Lanka to ash, and that he is a man who dared not face Rama and so stole his wife while he was absent. When he leaves, the rakshasis take over, each proposing a method of eating her, until Sita twists her hair into a rope and prepares to hang herself from the simsupa branch — directly above the hidden Hanuman. Trijata then silences them all with a dream she has had: Rama in white on a mountain of bones, Lanka in flames, Ravana shaven, oiled, dressed in red, dragged south on an ass.',
@@ -719,7 +719,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.31-36',
     order: 446,
-    characterIds: ['hanuman', 'sita', 'rama', 'lakshmana', 'sugriva', 'dasharatha'],
+    characterIds: ['hanuman', 'sita', 'rama', 'sugriva', 'dasharatha'],
     location: 'The simsupa tree, Ashoka grove',
     description:
       'From the branches Hanuman begins, in a low voice, to recite the story of the Ikshvakus — Dasharatha, Rama, the exile, the abduction, the alliance with Sugriva — so that Sita hears it as if from nowhere. She looks up and sees a monkey and is certain it is Ravana in another shape; he answers her suspicion patiently, and at last drops down Rama\'s signet ring engraved with his name. She takes it, turns it over, and Valmiki says she was as glad as if she had got her husband back; her face, he writes, shone like the moon released from Rahu. Hanuman offers to carry her out on his back across the sea that night.',
@@ -743,7 +743,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.37-40',
     order: 452,
-    characterIds: ['sita', 'hanuman', 'rama', 'ravana', 'indra', 'lakshmana'],
+    characterIds: ['sita', 'hanuman', 'rama', 'ravana', 'indra'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Sita declines to be carried away for two reasons she states plainly: she will not willingly touch another man\'s body, having been touched by Ravana only under force, and more importantly Rama\'s honour requires that he come himself and take her back by destroying Ravana, not that she be smuggled out. She unties the chudamani, the crest-jewel she has kept hidden in her garment, and gives it to Hanuman. With it she sends a private token no one else could know: the story of the crow of Indra\'s son that pecked her on Chitrakuta and that Rama blinded in one eye with a blade of grass charged as a brahmastra. She gives him one month and says that after that she will not be alive.',
@@ -757,7 +757,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.41-42',
     order: 458,
-    characterIds: ['hanuman', 'sita', 'ravana', 'kumbhakarna'],
+    characterIds: ['hanuman', 'sita', 'ravana'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Hanuman reasons that a messenger\'s second duty is reconnaissance by provocation: he must see the enemy\'s strength, and nothing will bring it out faster than ruining Ravana\'s pleasure garden. He tears up trees by the roots, smashes the hills and lotus pools and pavilions and leaves only the simsupa under which Sita is sitting, then stands roaring on the arch of the gate. The rakshasis wake and ask Sita who the monkey is and she says she knows nothing of rakshasa shape-shifting. Ravana, told of it, sends eighty thousand kinkaras, and Hanuman kills them all with an iron bar torn from the gateway.',
@@ -799,7 +799,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.49-53',
     order: 470,
-    characterIds: ['hanuman', 'ravana', 'vibhishana', 'prahasta', 'sita', 'rama', 'sugriva', 'vali', 'kubera'],
+    characterIds: ['hanuman', 'ravana', 'vibhishana', 'prahasta', 'sita', 'rama', 'sugriva', 'vali'],
     location: "Ravana's assembly hall, Lanka",
     description:
       'Hanuman, refusing to stand lower than the throne, coils his own tail into a seat higher than Ravana\'s, and delivers his message: he is the envoy of Sugriva, king of the vanaras; Ravana has already been humbled by Vali and by Kartavirya; let him return Sita and live, or Rama\'s arrows will empty Lanka. Ravana orders him killed on the spot. Vibhishana objects on grounds of law — an envoy may be punished but not executed; the recognised penalties are mutilation, flogging, shaving or branding — and Ravana, accepting the point, orders instead that his tail be wrapped in oiled cloth and set alight, since a monkey values his tail, and that he be paraded through the city.',
@@ -813,7 +813,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.53',
     order: 474,
-    characterIds: ['hanuman', 'ravana', 'sita', 'agni', 'vayu', 'vibhishana'],
+    characterIds: ['hanuman', 'ravana', 'sita', 'agni', 'vayu'],
     location: 'The streets of Lanka',
     description:
       'They wind cotton rags soaked in oil round his tail and set them on fire, and drag him through the streets with drums and conches while women and children come out to look. Hanuman lets them, and uses the march to memorise the layout of the fortifications, the gates and the garrisons. In the grove Sita, hearing of it, prays to Agni that the fire should not burn her husband\'s messenger, and Valmiki says the fire turned cold on him — he attributes it to Sita\'s merit and to Agni\'s regard for Vayu, Hanuman\'s father. Hanuman then shrinks small enough to slip his bonds, grows again, and kills the guards.',
@@ -827,7 +827,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.54-55',
     order: 478,
-    characterIds: ['hanuman', 'ravana', 'sita', 'agni', 'vayu', 'vibhishana', 'mandodari'],
+    characterIds: ['hanuman', 'ravana', 'sita', 'agni', 'vayu', 'vibhishana'],
     location: 'The city of Lanka',
     description:
       'Reasoning aloud that the grove is wrecked, the champions dead and a part of the army destroyed, and that only the fortress is left, Hanuman leaps from mansion to mansion with his burning tail and fires the city — Prahasta\'s house, Mahaparshva\'s, Indrajit\'s, Kumbhakarna\'s, Vibhishana\'s spared. The wind takes the flames and Valmiki compares the blaze to the fire at the end of an age; gold runs molten out of the walls, and the roar of collapsing palaces and screaming is heard across the water. Then Hanuman is seized by horror at the thought that Sita was in the grove and may have burned, and only the charanas\' voices and the omens convince him she is unharmed; he returns to the simsupa to see her alive before he leaves.',
@@ -865,7 +865,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.57-68',
     order: 492,
-    characterIds: ['hanuman', 'rama', 'lakshmana', 'sugriva', 'angada', 'jambavan', 'sita', 'ravana'],
+    characterIds: ['hanuman', 'rama', 'lakshmana', 'sugriva', 'angada', 'jambavan', 'sita'],
     location: 'Mount Prasravana, Kishkindha',
     description:
       'Hanuman salutes the elders and announces the result in three words before any narrative — drishta devi, "the queen has been seen." Brought before Rama, he faces south and bows to Sita before speaking, then reports everything: the grove, the simsupa, the rakshasis, the two-month deadline, her refusal to be carried off, and her words that she will not live another month. He gives Rama the chudamani, and Rama holds it and weeps, saying his father-in-law Janaka had bound it on her head. The crow of Chitrakuta, repeated back to him as Sita sent it, removes any possible doubt.',

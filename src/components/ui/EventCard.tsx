@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useStore } from '../../store';
 import { eventById, characterById, eventsByCharacter } from '../../data';
 import { KANDAS } from '../../data/types';
-import { FACTION_COLOR, KANDA_COLOR } from '../../lib/theme';
+import { FACTION_COLOR, KANDA_COLOR, eventColor, isPrehistory } from '../../lib/theme';
 import { ShlokaBlock } from './ShlokaBlock';
 import { ListenButton } from './ListenButton';
 import { eventSegments } from '../../lib/speechText';
@@ -17,7 +17,8 @@ export function EventCard() {
   if (!e) return <AnimatePresence />;
 
   const kanda = KANDAS.find((k) => k.id === e.kanda);
-  const color = KANDA_COLOR[e.kanda];
+  const color = eventColor(e);
+  const pre = isPrehistory(e);
 
   const siblings = selected ? (eventsByCharacter.get(selected) ?? []).slice().sort((a, b) => a.order - b.order) : [];
   const i = siblings.findIndex((x) => x.id === e.id);
@@ -35,12 +36,15 @@ export function EventCard() {
       >
         <header className="eventcard-head">
           <span className="eventcard-kanda" style={{ background: `${color}22`, color }}>
-            {kanda?.name ?? e.kanda}
+            {pre ? 'Before the epic' : kanda?.name ?? e.kanda}
           </span>
           <div style={{ flex: 1, minWidth: 0 }}>
             <h3>{e.title}</h3>
             <div className="eventcard-loc">
               {e.location}
+              {/* Prehistory is told in a later book, so name it rather than
+                  letting the colour imply the episode belongs there. */}
+              {pre ? ` · told in ${kanda?.name ?? e.kanda}` : ''}
               {e.sarga ? ` · Vālmīki Rāmāyaṇa ${e.sarga}` : ''}
               {i >= 0 ? ` · ${i + 1} of ${siblings.length} in this life` : ''}
             </div>

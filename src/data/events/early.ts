@@ -71,7 +71,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.10',
     order: -935,
-    characterIds: ['ravana', 'brahma', 'indra', 'yama', 'varuna', 'kubera'],
+    characterIds: ['ravana', 'brahma'],
     location: 'Gokarna',
     description:
       'Brahma restored the nine severed heads and asked Ravana to name his wish. Ravana asked that he never be slain by gandharvas, by yakshas, by rakshasas, by serpents, by the devas or the asuras, naming every order of being he thought worth fearing and omitting human beings and animals as beneath his notice. Brahma granted it exactly as asked and added the undecaying heads as a further gift. From that hour Ravana was effectively immune to the entire apparatus of heaven, and the devas were left with no answer to him except the one he had not thought of.',
@@ -113,7 +113,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.16',
     order: -890,
-    characterIds: ['ravana', 'shiva', 'parvati', 'kubera'],
+    characterIds: ['ravana', 'shiva', 'parvati'],
     location: 'Mount Kailasa',
     description:
       'Flying the Pushpaka over Kailasa, Ravana found the chariot halted in the air and was told by Nandi that Shiva was sporting on the mountain and no one might pass. Insulted, he set his twenty arms under the mountain and heaved it until Parvati clung to her husband in alarm and the attendants scattered. Shiva pressed down with one toe and pinned Ravana\'s arms beneath the mass, and the rakshasa screamed so terribly that the worlds shook. He then sang to Shiva for a thousand years until he was released and given a sword and a new name: Ravana, the one who made the universe cry out.',
@@ -141,7 +141,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.26',
     order: -860,
-    characterIds: ['ravana', 'kubera', 'brahma', 'sita'],
+    characterIds: ['ravana', 'kubera', 'sita'],
     location: 'Mount Kailasa, in Kubera\'s grove',
     description:
       'Ravana intercepted the apsaras Rambha, who was going to meet Kubera\'s son Nalakubara and who named herself his daughter-in-law, and forced himself on her despite the kinship. Nalakubara poured water in his palm and pronounced the curse: if Ravana ever again went to a woman who did not desire him, his head would split into seven pieces. Valmiki says the gods in heaven cried out in relief when they heard it. It is this curse, and not any scruple, that keeps Ravana from laying hands on Sita through the long months in the ashoka grove.',
@@ -155,7 +155,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.48',
     order: -840,
-    characterIds: ['indra', 'ahalya', 'gautama', 'brahma'],
+    characterIds: ['indra', 'ahalya', 'gautama'],
     location: "Gautama's hermitage near Mithila",
     description:
       'Indra, knowing Gautama absent, came to the hermitage in the sage\'s own form and asked Ahalya for union. Valmiki is unusually frank: she recognised the king of the gods under the disguise and consented out of curiosity about his favour, and afterwards told him to go quickly. Gautama met Indra leaving in his stolen shape, cursed him to lose his testicles, and cursed Ahalya to remain in that hermitage for thousands of years, invisible, living on air, lying in ashes and tormented by remorse, until Rama should come. He then left for the Himalaya. The gods later restored Indra with a ram\'s parts, which is why the ram became a sacrificial animal.',
@@ -211,7 +211,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.66',
     order: -765,
-    characterIds: ['hanuman', 'vayu', 'indra', 'surya', 'brahma', 'jambavan', 'anjana'],
+    characterIds: ['hanuman', 'vayu', 'indra', 'surya', 'brahma', 'jambavan', 'anjana', 'agni', 'varuna', 'yama'],
     location: 'The sky above the eastern mountain',
     description:
       'Waking hungry in the cave and seeing the newly risen sun, the infant took it for a ripe fruit and sprang hundreds of yojanas into the air to seize it, the wind cooling his path and the sun withholding his heat out of regard for what the child would one day do. Indra struck him with the vajra and broke his left jaw, from which he takes the name Hanuman, and the child fell on a rock. Vayu then withdrew himself from all the worlds and refused to blow until his son was healed, and every god in turn gave the boy a boon: Brahma that no brahmastra would bind him for long, Indra that no weapon would kill him, Agni and Varuna and Yama that their elements would not touch him. Because he then tormented the sages at their rites, they laid on him the limitation that he would forget his own powers until someone reminded him of them.',
@@ -239,7 +239,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.9-10',
     order: -725,
-    characterIds: ['vali', 'sugriva', 'mayavi', 'tara', 'ruma', 'angada', 'dundubhi'],
+    characterIds: ['vali', 'sugriva', 'mayavi', 'ruma', 'angada', 'dundubhi'],
     location: 'The mouth of a cave near Kishkindha',
     description:
       'Mayavi, a son of Dundubhi, came by night to the gate of Kishkindha to avenge his father and roared a challenge. Vali ran out with Sugriva following, and the asura fled into a deep cave; Vali went in, told Sugriva to wait at the mouth, and did not come out. After a year Sugriva saw foaming blood flow from the opening, heard only the asura\'s voice inside, and concluded his brother was dead; he rolled a boulder over the mouth so the demon could not escape and returned to Kishkindha, where the ministers made him king because the throne could not stay empty. Vali, who had killed Mayavi, broke out, saw his brother crowned, and refused every explanation, driving Sugriva from the city, seizing his wife Ruma and hunting him across the earth.',
@@ -253,7 +253,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'ayodhya',
     sarga: '2.63-64',
     order: -600,
-    characterIds: ['dasharatha', 'kausalya', 'sumantra'],
+    characterIds: ['dasharatha', 'kausalya'],
     location: 'The bank of the Sarayu',
     description:
       'As a young king proud of his skill at shooting by sound alone, Dasharatha lay in wait by the Sarayu on a dark night of the rains and loosed an arrow at what he took to be an elephant drinking. It was an ascetic boy filling a water jar for his old blind parents. Dying, the boy told him where they waited and asked only that the water be carried to them. Dasharatha confessed, and the blind father, after pouring the funeral offering for his son, pronounced that the king too would die of grief for a son, adding that because the killing had been unknowing it would not be instant. Both parents then gave up their lives beside the pyre.',
@@ -271,7 +271,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.1',
     order: 0,
-    characterIds: ['valmiki', 'narada', 'rama', 'sita', 'lakshmana', 'ravana'],
+    characterIds: ['valmiki', 'narada', 'rama'],
     location: "Valmiki's hermitage on the Tamasa",
     description:
       'Valmiki, an ascetic devoted to recitation and penance, put a single question to the wandering sage Narada: is there living in the world today a man of virtue, valour, gratitude, truth and firm vow, one whom even the gods would fear in anger? Narada answered that such rare qualities were hard to find together but that there was such a man, Rama of the Ikshvakus, and then told the whole story in about a hundred verses, from the birth of the princes to the reign that would follow the war. This compressed telling is the seed of the epic and is known as the Samkshepa Ramayana. Narada went away into the sky and Valmiki sat with the story in him, not yet knowing how it was to be said.',
@@ -295,7 +295,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.2',
     order: 5,
-    characterIds: ['valmiki', 'brahma', 'narada', 'rama'],
+    characterIds: ['valmiki', 'brahma', 'rama'],
     location: 'The bank of the Tamasa, near the hermitage',
     description:
       'Going down to the Tamasa to bathe, Valmiki watched a pair of krauncha birds absorbed in each other when a hunter shot the male; the hen circled over the bleeding body crying. Grief came out of the sage\'s mouth already shaped into metre, four quarters of equal syllables, and he stood astonished at what he had said, naming it shloka because it was born of shoka, sorrow. Brahma then appeared in the hermitage and told him that the speech had come by his own will and that Valmiki was to compose the story of Rama in that measure, promising that nothing he set down in it would be untrue and that the poem would last as long as mountains and rivers stood on earth. Valmiki taught it to his pupils, and later to Kusha and Lava.',
@@ -375,7 +375,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.22-23',
     order: 40,
-    characterIds: ['vishwamitra', 'rama', 'lakshmana', 'kausalya'],
+    characterIds: ['vishwamitra', 'rama', 'lakshmana'],
     location: 'The southern bank of the Sarayu, a league and a half from Ayodhya',
     description:
       'At the first halt Vishwamitra gave the two brothers the sciences Bala and Atibala, by which they would never feel hunger, thirst or fatigue, would never be disfigured even in sleep, and would have no equal on earth in strength or in argument. Rama took them after touching water, and Valmiki says he shone like the autumn sun. They slept on a bed of leaves on the riverbank, the sons of a king lying on the ground, and Vishwamitra woke them at dawn with words that are still used to wake a sleeper in the morning. The journey then went on to the confluence of Sarayu and Ganga and into the Kamashrama wood.',
@@ -413,7 +413,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.27-28',
     order: 50,
-    characterIds: ['rama', 'vishwamitra', 'lakshmana', 'shiva', 'brahma', 'vishnu', 'indra', 'yama', 'varuna', 'agni'],
+    characterIds: ['rama', 'vishwamitra', 'lakshmana', 'shiva', 'brahma', 'vishnu', 'varuna', 'agni'],
     location: 'The bank of the Tataka wood',
     description:
       'Pleased with the killing, Vishwamitra handed over the arsenal he had won by his own austerities, naming the weapons one by one: the discus of dharma, the discus of time, the discus of Vishnu, the trident of Shiva, the brahmashira, the weapons of Agni and Varuna and Vayu, the nooses and the maces, the modaki and the shikhari, and the irresistible brahmastra. Each came to Rama in person, with folded hands, and said that they were his servants. He then gave him the counter-weapons by which each could be withdrawn, which is the part of the training that matters most, since an astra once loosed and not recalled destroys indiscriminately. Rama kept them in mind rather than in a quiver, to be summoned by syllable.',
@@ -427,7 +427,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.29-30',
     order: 55,
-    characterIds: ['rama', 'lakshmana', 'vishwamitra', 'subahu', 'maricha', 'vishnu'],
+    characterIds: ['rama', 'lakshmana', 'vishwamitra', 'subahu', 'maricha'],
     location: 'Siddhashrama, where Vishnu once performed penance',
     description:
       'At Siddhashrama Vishwamitra took the vow of silence and began the six-day rite while the brothers stood guard without sleeping. On the sixth day the sky darkened and Maricha and Subahu came with their followers, pouring blood and flesh over the altar. Rama loosed the manavastra at Maricha and threw him a hundred yojanas out into the ocean without killing him, then killed Subahu outright with the agneyastra and scattered the rest with the vayavya. The sacrifice was completed, and Valmiki is careful to mark that Maricha survived, humiliated and permanently afraid of Rama.',
@@ -455,7 +455,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.48-49',
     order: 65,
-    characterIds: ['rama', 'ahalya', 'gautama', 'vishwamitra', 'lakshmana', 'indra'],
+    characterIds: ['rama', 'ahalya', 'gautama', 'vishwamitra', 'lakshmana'],
     location: "Gautama's deserted hermitage on the outskirts of Mithila",
     description:
       'Vishwamitra led the brothers into an overgrown hermitage that still looked holy though no one lived in it, and told them whose it was and what had happened there. Ahalya had been invisible to all beings for the length of the curse, lying in ascetic practice; as Rama entered she became visible, shining with the heat of her long penance like the moon coming out of cloud. Rama and Lakshmana touched her feet, she received them with water and food as a guest, flowers fell from the sky, and Gautama returned and took her back. Valmiki does not narrate Ahalya being turned to stone and revived by the dust of Rama\'s foot; that stone comes from later retellings, principally the Puranic versions, and in Valmiki she is invisible rather than petrified.',
@@ -591,7 +591,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'ayodhya',
     sarga: '2.7-9',
     order: 110,
-    characterIds: ['manthara', 'kaikeyi', 'rama', 'bharata', 'kausalya', 'dasharatha'],
+    characterIds: ['manthara', 'kaikeyi', 'rama', 'bharata', 'kausalya'],
     location: "Kaikeyi's apartments",
     description:
       'Manthara, Kaikeyi\'s hunchbacked servant brought from the Kekaya country, climbed to the terrace, saw the decorated city, learned the reason, and went to her mistress in fury. Kaikeyi\'s first reaction was delight: she took off a necklace and gave it to Manthara as a reward for the good news, saying she made no difference between Rama and Bharata. Manthara then argued for three sargas, telling her she was a fool, that Kausalya would be the queen mother and she a servant of servants, that Bharata would be killed or exiled, that Rama\'s kindness was policy, and that the only safe prince is one on the throne. She reminded Kaikeyi of two boons owed her from an old battle, and told her exactly what to ask for and exactly how to ask.',
@@ -681,7 +681,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'ayodhya',
     sarga: '2.20-24',
     order: 135,
-    characterIds: ['kausalya', 'rama', 'lakshmana', 'sumitra', 'dasharatha', 'kaikeyi'],
+    characterIds: ['kausalya', 'rama', 'lakshmana', 'sumitra', 'kaikeyi'],
     location: "Kausalya's apartments",
     description:
       'Kausalya was at worship when Rama came to take leave, and when she understood she fell to the ground and said that seventeen years of neglect in her husband\'s house had been bearable only because of him. She tried to forbid the journey, arguing that a mother\'s claim equals a father\'s, and Rama refused her on the ground that he could not disobey. Lakshmana, shaking with anger, proposed openly to kill anyone who stood with Kaikeyi, to seize the kingdom by force, and said that a father senile with lust and ruled by a woman should not be obeyed. Rama talked him down, and Kausalya at last gave her blessing and performed the rites of protection over him; Sumitra told Lakshmana to go and to treat Rama as his father and Sita as his mother.',

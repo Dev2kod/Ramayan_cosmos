@@ -64,6 +64,49 @@ for (const e of events) {
   }
 }
 
+/* --- chronology --- */
+// `order` is chronological and `kanda` is where Valmiki narrates it. Those
+// agree for everything except prehistory, which a later book recounts. Any
+// other disagreement means a timeline will render with its colours shuffled.
+const BAND: Record<string, [number, number]> = {
+  bala: [0, 99],
+  ayodhya: [100, 199],
+  aranya: [200, 299],
+  kishkindha: [300, 399],
+  sundara: [400, 499],
+  yuddha: [500, 599],
+  uttara: [600, 699],
+};
+for (const e of events) {
+  if (e.order < 0) continue; // prehistory, narrated out of sequence by design
+  const band = BAND[e.kanda];
+  if (!band) continue;
+  if (e.order < band[0] || e.order > band[1]) {
+    warn.push(`order ${e.order} is outside the ${e.kanda} band ${band[0]}-${band[1]}: ${e.id}`);
+  }
+}
+
+// Within one character's life the kandas must not run backwards once the
+// prehistory is past, or the helix reads as shuffled.
+const KORDER = ['bala', 'ayodhya', 'aranya', 'kishkindha', 'sundara', 'yuddha', 'uttara'];
+const timelines = new Map<string, typeof events>();
+for (const e of events) for (const id of e.characterIds) {
+  if (!timelines.has(id)) timelines.set(id, []);
+  timelines.get(id)!.push(e);
+}
+for (const [id, evs] of timelines) {
+  const seq = evs.filter((e) => e.order >= 0).sort((a, b) => a.order - b.order);
+  let prev = -1;
+  for (const e of seq) {
+    const k = KORDER.indexOf(e.kanda);
+    if (k < prev) {
+      warn.push(`${id}'s timeline goes backwards into ${e.kanda} at ${e.id}`);
+      break;
+    }
+    prev = k;
+  }
+}
+
 /* --- connectivity --- */
 const degree = new Map<string, number>(chars.map((c) => [c.id, 0]));
 for (const r of rels) {

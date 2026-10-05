@@ -3,7 +3,7 @@ import { useFrame, type ThreeEvent } from '@react-three/fiber';
 import { Billboard, Text } from '@react-three/drei';
 import * as THREE from 'three';
 import type { StoryEvent } from '../../data/types';
-import { KANDA_COLOR } from '../../lib/theme';
+import { eventColor } from '../../lib/theme';
 import { glowTexture } from './GraphNodes';
 
 export interface HelixPoint {
@@ -64,7 +64,7 @@ export function TimelineHelix({
     for (let i = 0; i < count; i++) {
       const t = i / count;
       const idx = Math.min(points.length - 1, Math.floor(t * points.length));
-      c.set(KANDA_COLOR[points[idx].event.kanda] ?? '#ffcf6b');
+      c.set(eventColor(points[idx].event));
       col[i * 3] = c.r;
       col[i * 3 + 1] = c.g;
       col[i * 3 + 2] = c.b;
@@ -90,7 +90,7 @@ export function TimelineHelix({
         mid.add(out);
         const curve = new THREE.QuadraticBezierCurve3(from.pos, mid, p.pos);
         const pts = curve.getPoints(18);
-        c.set(KANDA_COLOR[p.event.kanda] ?? '#ffcf6b');
+        c.set(eventColor(p.event));
         for (let i = 0; i < pts.length - 1; i++) {
           segs.push(pts[i].x, pts[i].y, pts[i].z, pts[i + 1].x, pts[i + 1].y, pts[i + 1].z);
           const f = Math.sin((i / pts.length) * Math.PI) * 0.75 + 0.1;
@@ -170,7 +170,7 @@ function Bead({
   const hov = useRef(0);
   const act = useRef(0);
   const lab = useRef(0);
-  const color = KANDA_COLOR[point.event.kanda] ?? '#ffcf6b';
+  const color = eventColor(point.event);
 
   useFrame((state, dt) => {
     const k = 1 - Math.pow(0.0015, dt);

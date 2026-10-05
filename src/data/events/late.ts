@@ -44,7 +44,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Encampment on the Shore and the Reading of Omens',
     kanda: 'yuddha',
     sarga: '6.4-5',
-    order: 505,
+    order: 504,
     characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'sita', 'ravana'],
     location: 'The northern shore of the ocean, facing Lanka',
     description:
@@ -58,7 +58,7 @@ export const lateEvents: StoryEvent[] = [
     title: "Ravana's Council of War",
     kanda: 'yuddha',
     sarga: '6.6-9',
-    order: 508,
+    order: 506,
     characterIds: ['ravana', 'kumbhakarna', 'indrajit', 'prahasta', 'vibhishana', 'mahaparshva', 'nikumbha', 'malyavan'],
     location: 'The council hall of Lanka',
     description:
@@ -72,7 +72,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Vibhishana Is Kicked From the Throne Steps',
     kanda: 'yuddha',
     sarga: '6.14-16',
-    order: 511,
+    order: 508,
     characterIds: ['vibhishana', 'ravana', 'indrajit', 'sita', 'rama'],
     location: 'The council hall of Lanka',
     description:
@@ -86,7 +86,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Vibhishana Crosses the Sea and Hovers Above the Vanara Camp',
     kanda: 'yuddha',
     sarga: '6.17',
-    order: 514,
+    order: 510,
     characterIds: ['vibhishana', 'sugriva', 'hanuman', 'angada', 'jambavan', 'nila', 'rama', 'lakshmana'],
     location: 'The air above the vanara camp on the northern shore',
     description:
@@ -100,7 +100,7 @@ export const lateEvents: StoryEvent[] = [
     title: '"This Is My Vow": Rama Accepts Vibhishana',
     kanda: 'yuddha',
     sarga: '6.17-18',
-    order: 517,
+    order: 512,
     characterIds: ['rama', 'vibhishana', 'sugriva', 'hanuman', 'lakshmana', 'angada', 'jambavan'],
     location: 'The vanara camp on the northern shore',
     description:
@@ -124,7 +124,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Vibhishana Consecrated King of Lanka on the Beach',
     kanda: 'yuddha',
     sarga: '6.19',
-    order: 520,
+    order: 514,
     characterIds: ['vibhishana', 'rama', 'lakshmana', 'sugriva', 'hanuman', 'samudra', 'ravana'],
     location: 'The seashore camp',
     description:
@@ -138,7 +138,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Rama Lies Three Nights on Darbha Grass Before the Sea',
     kanda: 'yuddha',
     sarga: '6.21',
-    order: 523,
+    order: 516,
     characterIds: ['rama', 'lakshmana', 'samudra', 'vibhishana', 'sugriva'],
     location: 'The water\'s edge, northern shore',
     description:
@@ -152,7 +152,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Samudra Rises From the Water',
     kanda: 'yuddha',
     sarga: '6.22',
-    order: 526,
+    order: 518,
     characterIds: ['samudra', 'rama', 'lakshmana', 'nala', 'vibhishana'],
     location: 'The strait between the mainland and Lanka',
     description:
@@ -176,7 +176,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Nala Builds the Setu in Five Days',
     kanda: 'yuddha',
     sarga: '6.22',
-    order: 532,
+    order: 520,
     characterIds: ['nala', 'rama', 'samudra', 'hanuman', 'nila', 'angada', 'jambavan', 'sugriva', 'lakshmana', 'mainda', 'dvivida'],
     location: 'The hundred-yojana strait to Lanka',
     description:
@@ -200,7 +200,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Crossing and the Climb of Mount Suvela',
     kanda: 'yuddha',
     sarga: '6.22-23, 6.37-39',
-    order: 535,
+    order: 522,
     characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'vibhishana', 'angada', 'jambavan', 'nila', 'ravana'],
     location: 'The setu, the Lankan shore, and the summit of Mount Suvela',
     description:
@@ -214,8 +214,8 @@ export const lateEvents: StoryEvent[] = [
     title: 'Shuka and Sarana Caught Counting the Army',
     kanda: 'yuddha',
     sarga: '6.24-29',
-    order: 538,
-    characterIds: ['rama', 'vibhishana', 'ravana', 'hanuman', 'sugriva', 'angada', 'jambavan', 'nila', 'lakshmana'],
+    order: 524,
+    characterIds: ['rama', 'vibhishana', 'ravana', 'hanuman', 'sugriva', 'angada', 'jambavan', 'nila', 'lakshmana', 'nala', 'sushena'],
     location: 'The vanara camp below Lanka',
     description:
       'Ravana sends his ministers Shuka and Sarana in vanara shape to count Rama\'s strength. Vibhishana, who has known them all his life, picks them out of the crowd at once and they are seized and beaten. Rama orders them released untouched, telling them to go back and look again as long as they like, since spies are only messengers and killing a messenger is beneath a king. They return and, instead of a tally, deliver a terrified roll-call of the enemy — naming Nila, Angada, Nala, Sushena, Jambavan, the sons of the wind and the sun — and advise Ravana to give Sita back. Ravana answers that he would not give her up though the gods themselves came for her, and a third spy, Shardula, fares no better.',
@@ -228,8 +228,8 @@ export const lateEvents: StoryEvent[] = [
     title: "Vidyujjihva's Illusion: Rama's Severed Head Shown to Sita",
     kanda: 'yuddha',
     sarga: '6.31-32',
-    order: 544,
-    characterIds: ['ravana', 'sita', 'vidyujjihva', 'trijata', 'hanuman'],
+    order: 526,
+    characterIds: ['ravana', 'sita', 'vidyujjihva', 'trijata'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Unable to frighten Sita with threats or buy her with a kingdom, Ravana tries grief. He has the sorcerer Vidyujjihva conjure a head with Rama\'s face and matted hair, and a great bow with it, and walks into the grove to tell her that Prahasta cut it off while the army slept, that the vanaras are scattered, and that she is now a widow with nothing left to be loyal to. Sita collapses, speaks of Kausalya and of Kaikeyi\'s success, and begs to be killed on her husband\'s body. The illusion fails only because a messenger calls Ravana away to the council and the conjured head vanishes with him.',
@@ -242,8 +242,8 @@ export const lateEvents: StoryEvent[] = [
     title: 'Sarama Tells Sita the Head Was a Trick',
     kanda: 'yuddha',
     sarga: '6.33-34',
-    order: 547,
-    characterIds: ['sarama', 'sita', 'ravana', 'rama', 'trijata', 'vibhishana', 'mandodari'],
+    order: 528,
+    characterIds: ['sarama', 'sita', 'ravana', 'rama', 'trijata', 'mandodari'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Sarama, a rakshasi who has quietly befriended Sita, comes to her where she lies on the ground and tells her the whole thing was sorcery: Rama is alive on Suvela, the head was conjured and dissolved, and the bow with it. She offers to carry a message to Rama herself, and Sita, characteristically, refuses to ask for anything beyond news. Sarama then creeps to the council hall and brings back word that Ravana\'s own queen Mandodari and his aged ministers are urging him to return Sita, and that only Ravana refuses. Shortly afterwards the drums of Rama\'s assault are heard from the walls, and Sarama tells Sita that the sound is her rescue beginning.',
@@ -256,8 +256,8 @@ export const lateEvents: StoryEvent[] = [
     title: "Angada's Embassy and the Challenge at the Gate",
     kanda: 'yuddha',
     sarga: '6.41',
-    order: 550,
-    characterIds: ['angada', 'rama', 'ravana', 'vali', 'lakshmana', 'sugriva', 'hanuman'],
+    order: 530,
+    characterIds: ['angada', 'rama', 'ravana', 'lakshmana', 'sugriva', 'hanuman'],
     location: 'The court of Ravana, Lanka',
     description:
       'Before the first assault Rama sends Angada over the wall with a formal last demand: come out and fight, or return Sita and live. Angada stands in the hall and calls Ravana by name, reminds him that he abducted a woman in secret because he dared not face two men in the open, and offers him Rama\'s protection if he will submit. Ravana orders him seized; four rakshasas take hold of his arms, and Angada simply leaps for the roof carrying all four with him, shakes them off, breaks the tower under his feet and jumps back over the wall. Valmiki does not narrate the famous episode in which Angada plants his foot in the hall and defies the court to lift it — that contest comes from later retellings and regional Ramayanas, not from this sarga.',
@@ -270,7 +270,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Siege: Four Gates and the First Assault',
     kanda: 'yuddha',
     sarga: '6.42-44',
-    order: 553,
+    order: 532,
     characterIds: ['rama', 'lakshmana', 'sugriva', 'hanuman', 'angada', 'nila', 'jambavan', 'vibhishana', 'ravana', 'prahasta', 'indrajit', 'mahaparshva'],
     location: 'The walls and four gates of Lanka',
     description:
@@ -284,8 +284,8 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Serpent-Noose and the Coming of Garuda',
     kanda: 'yuddha',
     sarga: '6.45-50',
-    order: 556,
-    characterIds: ['indrajit', 'rama', 'lakshmana', 'garuda', 'hanuman', 'vibhishana', 'jambavan', 'sugriva', 'sita', 'trijata', 'ravana'],
+    order: 534,
+    characterIds: ['indrajit', 'rama', 'lakshmana', 'garuda', 'hanuman', 'vibhishana', 'jambavan', 'sugriva', 'sita', 'trijata', 'ravana', 'angada'],
     location: 'The battlefield before the northern gate; the Ashoka grove',
     description:
       'Indrajit, who has the art of fighting invisibly, rises into the sky and binds both brothers with the nagapasha, arrows that become serpents and coil them from head to foot; they fall and the whole army believes them dead. Ravana has Sita carried over the field in the Pushpaka to look at the bodies, meaning to break her, and only Trijata\'s insistence that living men do not lie with that light on their faces keeps her from despair. Then Garuda, the eternal enemy of serpents, descends on his own initiative, and at the touch of his wings the nooses loosen and slide away; he tells Rama their wounds are healed and their strength doubled, refuses to explain who he is beyond calling himself Rama\'s friend, and flies off. The vanaras raise such a shout that Ravana sends out Dhumraksha, who is killed by Hanuman, and then Vajradamshtra and Akampana, who are killed by Angada and Hanuman in turn.',
@@ -298,8 +298,8 @@ export const lateEvents: StoryEvent[] = [
     title: 'Kumbhakarna Is Woken',
     kanda: 'yuddha',
     sarga: '6.60-63',
-    order: 565,
-    characterIds: ['kumbhakarna', 'ravana', 'vibhishana', 'mahaparshva', 'brahma', 'indra'],
+    order: 536,
+    characterIds: ['kumbhakarna', 'ravana', 'vibhishana', 'mahaparshva', 'brahma'],
     location: 'The cave-chamber of Kumbhakarna, Lanka',
     description:
       'With Prahasta dead and his own crown broken, Ravana orders his brother woken out of the six-month sleep that Brahma gave him in place of the boon he meant to ask for. It takes a thousand rakshasas: they beat drums and conches in his ears, pile heaps of meat and jars of blood and wine before him, drive elephants over his chest and strike him with maces, and at last he opens his eyes and eats. Told the situation, Kumbhakarna laughs and tells Ravana to his face that he was warned, that a king who takes another man\'s wife has already lost, and that Vibhishana spoke the truth — but that he will go and fight regardless, because he is a brother before he is a counsellor. He refuses Mahaparshva\'s wine-soaked flattery, picks up his iron pike, and walks out through the gate so large that the vanaras scatter at the sight of him.',
@@ -312,7 +312,7 @@ export const lateEvents: StoryEvent[] = [
     title: "Kumbhakarna's Last Battle",
     kanda: 'yuddha',
     sarga: '6.65-67',
-    order: 568,
+    order: 538,
     characterIds: ['kumbhakarna', 'rama', 'lakshmana', 'hanuman', 'sugriva', 'angada', 'nila', 'jambavan', 'vibhishana', 'ravana', 'indra'],
     location: 'The field before Lanka',
     description:
@@ -326,7 +326,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Narantaka, Trishira, Devantaka and Atikaya Fall',
     kanda: 'yuddha',
     sarga: '6.69-71',
-    order: 571,
+    order: 540,
     characterIds: ['atikaya', 'narantaka', 'devantaka', 'trishira', 'mahaparshva', 'lakshmana', 'hanuman', 'angada', 'nila', 'rama', 'ravana', 'brahma'],
     location: 'The field before Lanka',
     description:
@@ -340,7 +340,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Indrajit Fells Rama and Lakshmana From the Clouds',
     kanda: 'yuddha',
     sarga: '6.73',
-    order: 574,
+    order: 542,
     characterIds: ['indrajit', 'rama', 'lakshmana', 'vibhishana', 'hanuman', 'jambavan', 'sugriva', 'angada', 'nila', 'brahma'],
     location: 'The field before Lanka',
     description:
@@ -354,7 +354,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Hanuman Brings the Mountain of Herbs',
     kanda: 'yuddha',
     sarga: '6.74',
-    order: 577,
+    order: 544,
     characterIds: ['hanuman', 'jambavan', 'lakshmana', 'rama', 'sushena', 'vibhishana', 'sugriva', 'angada', 'kalanemi'],
     location: 'The Himalaya between Rishabha and Kailasa, and back to Lanka',
     description:
@@ -368,7 +368,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Indrajit Kills an Illusion of Sita Before the Army',
     kanda: 'yuddha',
     sarga: '6.80-81',
-    order: 580,
+    order: 546,
     characterIds: ['indrajit', 'hanuman', 'rama', 'lakshmana', 'vibhishana', 'sita', 'jambavan', 'sugriva'],
     location: 'Before the western gate of Lanka',
     description:
@@ -382,8 +382,8 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Nikumbhila Sacrifice Broken and Indrajit Slain',
     kanda: 'yuddha',
     sarga: '6.84-90',
-    order: 583,
-    characterIds: ['lakshmana', 'indrajit', 'vibhishana', 'hanuman', 'jambavan', 'angada', 'rama', 'brahma', 'indra', 'agni'],
+    order: 548,
+    characterIds: ['lakshmana', 'indrajit', 'vibhishana', 'hanuman', 'jambavan', 'angada', 'rama', 'indra', 'agni'],
     location: 'The Nikumbhila grove at the western gate of Lanka',
     description:
       'Vibhishana explains that if Indrajit completes the fire sacrifice at Nikumbhila he will rise from it invisible and unkillable, and that the rite must be broken before the final oblation. Rama sends Lakshmana with Hanuman, Jambavan and Vibhishana through a side gate, and they find the grove, the black goat, the fire fed with bloody offerings, and Indrajit beginning. The vanaras wreck the altar; Indrajit springs up without finishing, and reproaches his uncle bitterly for guiding enemies into his own family\'s shrine, to which Vibhishana answers that the house of a wicked man is no refuge. The duel that follows lasts through a storm of divine weapons until Lakshmana fits the Aindrastra and swears on Rama\'s truth, his austerity and his own fidelity, and the arrow carries off the head of the only warrior who had ever defeated Indra.',
@@ -396,8 +396,8 @@ export const lateEvents: StoryEvent[] = [
     title: "Ravana's Shakti Strikes Lakshmana Down",
     kanda: 'yuddha',
     sarga: '6.100-101',
-    order: 586,
-    characterIds: ['ravana', 'lakshmana', 'rama', 'hanuman', 'vibhishana', 'sushena', 'maya', 'brahma'],
+    order: 550,
+    characterIds: ['ravana', 'lakshmana', 'rama', 'hanuman', 'vibhishana', 'sushena', 'maya', 'sugriva'],
     location: 'The field before Lanka',
     description:
       'Maddened by his son\'s death, Ravana first runs into the Ashoka grove meaning to kill Sita himself and is turned back by his minister Suparshva, then comes out for the last time to fight in earnest. Lakshmana puts himself between Ravana and Rama, breaks his bow and his chariot and strikes down his charioteer; in answer Ravana takes up the shakti given him by Maya, a spear burning like a great meteor, and drives it into Lakshmana\'s chest. Lakshmana falls and Rama cannot pull the weapon out until he lifts the stunned body in his own arms, at which the shaft comes free. Rama sets Hanuman and Sugriva to guard him and goes out alone, and it is here that he speaks the lament that he can find another wife and another kingdom but never another brother.',
@@ -410,7 +410,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Sushena Sends Hanuman for the Herbs a Second Time',
     kanda: 'yuddha',
     sarga: '6.101',
-    order: 589,
+    order: 552,
     characterIds: ['sushena', 'hanuman', 'lakshmana', 'rama', 'sugriva', 'vibhishana', 'jambavan'],
     location: 'The Lankan camp and the Himalaya',
     description:
@@ -424,7 +424,7 @@ export const lateEvents: StoryEvent[] = [
     title: "Indra Sends His Chariot, and Agastya Teaches the Aditya Hridayam",
     kanda: 'yuddha',
     sarga: '6.102, 6.105',
-    order: 592,
+    order: 554,
     characterIds: ['indra', 'rama', 'agastya', 'ravana', 'surya', 'lakshmana', 'hanuman', 'vibhishana', 'brahma'],
     location: 'The field before Lanka',
     description:
@@ -438,7 +438,7 @@ export const lateEvents: StoryEvent[] = [
     title: "The Brahmastra of Agastya and Ravana's Fall",
     kanda: 'yuddha',
     sarga: '6.107-108',
-    order: 595,
+    order: 556,
     characterIds: ['rama', 'ravana', 'agastya', 'indra', 'lakshmana', 'vibhishana', 'hanuman', 'brahma', 'sugriva'],
     location: 'The field before Lanka',
     description:
@@ -462,8 +462,8 @@ export const lateEvents: StoryEvent[] = [
     title: "Mandodari's Lament Over Ravana",
     kanda: 'yuddha',
     sarga: '6.109-111',
-    order: 598,
-    characterIds: ['mandodari', 'ravana', 'vibhishana', 'rama', 'lakshmana', 'sita', 'indrajit'],
+    order: 558,
+    characterIds: ['mandodari', 'ravana', 'vibhishana', 'rama', 'lakshmana', 'sita'],
     location: 'The battlefield outside the southern gate of Lanka',
     description:
       'Vibhishana weeps over his brother and refuses at first to perform the rites for a man who stole another\'s wife; Rama answers him with the sentence that ends all enmity — vairani maranantani, hostilities end with death — and tells him Ravana is now as much Rama\'s brother as his own. Then the women of the inner apartments come out of the city, and Mandodari throws herself on the body. Her lament is the most clear-sighted speech in the epic: she says her husband was not killed by a man but by his own act, that Rama is no ordinary prince, that Sita is neither more beautiful nor more fortunate than she is herself, and that the war was lost the day Vibhishana was driven out. She ends by telling the corpse that it was not Rama\'s arrow that killed him but kama, desire.',
@@ -480,7 +480,7 @@ export const lateEvents: StoryEvent[] = [
     title: "Ravana's Funeral and Vibhishana Enthroned in Lanka",
     kanda: 'yuddha',
     sarga: '6.112-113',
-    order: 601,
+    order: 560,
     characterIds: ['vibhishana', 'rama', 'lakshmana', 'mandodari', 'ravana', 'agni', 'hanuman', 'sugriva'],
     location: 'Lanka and its cremation ground',
     description:
@@ -494,7 +494,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Sita Is Brought From the Grove, and Rama Speaks Harshly',
     kanda: 'yuddha',
     sarga: '6.114-116',
-    order: 604,
+    order: 562,
     characterIds: ['sita', 'rama', 'hanuman', 'vibhishana', 'lakshmana', 'sugriva', 'angada', 'jambavan', 'trijata'],
     location: 'Outside the gates of Lanka',
     description:
@@ -508,7 +508,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Sita Enters the Fire',
     kanda: 'yuddha',
     sarga: '6.116-117',
-    order: 607,
+    order: 564,
     characterIds: ['sita', 'rama', 'lakshmana', 'agni', 'hanuman', 'vibhishana', 'sugriva', 'jambavan', 'angada'],
     location: 'Outside the gates of Lanka',
     description:
@@ -522,7 +522,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Agni Carries Sita Out of the Flames',
     kanda: 'yuddha',
     sarga: '6.118',
-    order: 610,
+    order: 566,
     characterIds: ['agni', 'sita', 'rama', 'brahma', 'shiva', 'indra', 'lakshmana', 'vibhishana', 'hanuman'],
     location: 'Outside the gates of Lanka',
     description:
@@ -546,7 +546,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Brahma Reveals Rama, and Dasharatha Comes Down From Heaven',
     kanda: 'yuddha',
     sarga: '6.119-120',
-    order: 613,
+    order: 568,
     characterIds: ['brahma', 'dasharatha', 'rama', 'sita', 'lakshmana', 'shiva', 'indra', 'vishnu', 'kaikeyi', 'bharata'],
     location: 'The sky above the Lankan shore',
     description:
@@ -560,7 +560,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Indra Revives the Fallen Vanaras',
     kanda: 'yuddha',
     sarga: '6.120',
-    order: 616,
+    order: 570,
     characterIds: ['indra', 'rama', 'sugriva', 'hanuman', 'angada', 'jambavan', 'nila', 'nala', 'mainda', 'dvivida', 'lakshmana'],
     location: 'The battlefield of Lanka',
     description:
@@ -574,7 +574,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Pushpaka Flight North and the Stop at Bharadwaja',
     kanda: 'yuddha',
     sarga: '6.123-125',
-    order: 619,
+    order: 572,
     characterIds: ['rama', 'sita', 'lakshmana', 'hanuman', 'sugriva', 'vibhishana', 'angada', 'jambavan', 'nila', 'bharadwaja', 'kubera'],
     location: 'Lanka to Prayaga, by air',
     description:
@@ -588,7 +588,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'Hanuman Carries the News to Bharata',
     kanda: 'yuddha',
     sarga: '6.125-126',
-    order: 622,
+    order: 574,
     characterIds: ['hanuman', 'bharata', 'guha', 'rama', 'sita', 'lakshmana', 'shatrughna', 'sumantra'],
     location: 'Shringaverapura and Nandigrama',
     description:
@@ -602,7 +602,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Coronation of Rama',
     kanda: 'yuddha',
     sarga: '6.127-128',
-    order: 625,
+    order: 576,
     characterIds: ['rama', 'sita', 'bharata', 'lakshmana', 'shatrughna', 'vasishtha', 'kausalya', 'sumitra', 'kaikeyi', 'sugriva', 'hanuman', 'vibhishana', 'angada', 'jambavan', 'nila', 'janaka', 'sumantra'],
     location: 'Ayodhya',
     description:
@@ -626,7 +626,7 @@ export const lateEvents: StoryEvent[] = [
     title: 'The Allies Are Sent Home and the Pushpaka Returned',
     kanda: 'yuddha',
     sarga: '6.128, 7.39-40',
-    order: 628,
+    order: 578,
     characterIds: ['rama', 'sugriva', 'hanuman', 'vibhishana', 'angada', 'jambavan', 'nala', 'nila', 'kubera', 'sita', 'lakshmana'],
     location: 'Ayodhya',
     description:
@@ -645,7 +645,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.1-9',
     order: 636,
-    characterIds: ['agastya', 'rama', 'ravana', 'kumbhakarna', 'vibhishana', 'shurpanakha', 'vishrava', 'kaikasi', 'sumali', 'malyavan', 'kubera', 'brahma', 'lakshmana'],
+    characterIds: ['agastya', 'rama', 'ravana', 'kumbhakarna', 'vibhishana', 'shurpanakha', 'vishrava', 'kaikasi', 'sumali', 'malyavan', 'kubera', 'lakshmana'],
     location: 'The court of Ayodhya',
     description:
       'The rishis come to congratulate Rama and he asks them, almost casually, how a rakshasa came to be strong enough to defeat Indra. Agastya answers with a genealogy that reframes the whole war: the rakshasas descend from Pulastya through the sage Vishrava, so Ravana was a brahmin by birth and Kubera\'s half-brother. Sumali, driven under the earth by Vishnu, pushed his daughter Kaikasi to go to Vishrava at twilight, the worst hour, and the sage warned her that children conceived then would be cruel — which is how Ravana, Kumbhakarna and Shurpanakha were born, and why Vibhishana, conceived later at a proper hour, came out righteous. Rama listens to the account of his enemy\'s family as though it were his own history, which in Valmiki\'s telling it partly is.',
@@ -673,7 +673,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.35-36',
     order: 644,
-    characterIds: ['agastya', 'rama', 'hanuman', 'anjana', 'kesari', 'vayu', 'surya', 'indra', 'brahma', 'lakshmana', 'sugriva', 'angada'],
+    characterIds: ['agastya', 'rama', 'hanuman', 'anjana', 'kesari', 'vayu', 'surya', 'indra', 'brahma', 'lakshmana'],
     location: 'The court of Ayodhya; set on Mount Sumeru',
     description:
       'Rama asks why, if Hanuman is what he appears to be, he did not simply pick up Lanka and bring it home. Agastya explains that Hanuman was born to Anjana and Kesari by the grace of Vayu, and that as an infant he mistook the rising sun for a ripe fruit and leapt for it; Indra struck him with the thunderbolt and broke his jaw, from which he has his name. Vayu withdrew the breath from all creatures in fury until the gods compensated the child with invulnerability and a battery of boons from Brahma, Indra, Agni, Varuna and Yama. But the boy\'s pranks on the sages of the forest earned him a curse: that he would not remember his own powers until someone reminded him of them — which is exactly why Jambavan had to stand on the shore and recite them before Hanuman could leap the sea.',
@@ -715,7 +715,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.45-48',
     order: 656,
-    characterIds: ['lakshmana', 'sita', 'rama', 'sumantra', 'ganga', 'bharata', 'shatrughna', 'valmiki'],
+    characterIds: ['lakshmana', 'sita', 'rama', 'sumantra', 'ganga', 'bharata', 'shatrughna'],
     location: 'The northern bank of the Ganga, near Valmiki\'s ashram',
     description:
       'Rama orders Lakshmana to take Sita in the chariot to the hermitages she asked to see and to abandon her there, and forbids him to argue. Sita sets out happy, carrying gifts of cloth and ornaments for the sages\' wives, noticing bad omens on the road and dismissing them. On the far bank Lakshmana breaks down and tells her the truth, and her first thought is not for herself: she asks him to carry a message to Rama that she does not blame him, that she knows he is bound by what people say, and that he should go on ruling as a father to his subjects. She also tells him she would have killed herself in the Ganga but for the children she is carrying, who must be born for the Ikshvaku line.',
@@ -729,7 +729,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.48-49',
     order: 660,
-    characterIds: ['valmiki', 'sita', 'lakshmana', 'rama', 'ganga'],
+    characterIds: ['valmiki', 'sita', 'rama', 'ganga'],
     location: "Valmiki's ashram on the Tamasa, near the Ganga",
     description:
       'The boys of the hermitage find a weeping woman by the river and run to fetch Valmiki, who comes and tells her at once that he knows everything by his own vision — who she is, why she has been sent away, and that she is blameless. He takes her to the ashram, puts her in the care of the ascetic women, and tells them to treat her as a guest and a daughter and to want for nothing on her account. Sita lives there for more than a decade in bark cloth, doing the work of the ashram. Valmiki, who is composing the Ramayana at the same time, thus has his subject\'s wife living in his own house, which is the device by which the poem reaches the people inside it.',
@@ -785,7 +785,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.93-94',
     order: 676,
-    characterIds: ['lava', 'kusha', 'valmiki', 'rama', 'lakshmana', 'bharata', 'shatrughna', 'hanuman', 'sugriva', 'vibhishana', 'sita'],
+    characterIds: ['lava', 'kusha', 'valmiki', 'rama', 'lakshmana', 'bharata', 'shatrughna', 'hanuman', 'sugriva', 'vibhishana'],
     location: 'The sacrificial enclosure in the Naimisha forest',
     description:
       'Valmiki sends the twins out among the assembly to sing the poem twenty sargas at a sitting, accompanied on the vina, telling them to accept nothing in payment — no gold, no cattle — because the sons of a sage living on roots have no use for it. The crowd notices first that the boys are identical, and then that they look exactly like Rama in bark cloth. Rama sits and listens to his own life sung back to him by two children, and sends Lakshmana with eighteen thousand gold pieces, which they refuse. When he asks whose sons they are and who made the poem, they answer that their teacher is Valmiki and that he will come and tell him the rest.',
@@ -865,7 +865,7 @@ export const lateEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.109-110',
     order: 696,
-    characterIds: ['rama', 'bharata', 'shatrughna', 'brahma', 'vasishtha', 'hanuman', 'sugriva', 'vibhishana', 'jambavan', 'vishnu', 'shiva', 'indra'],
+    characterIds: ['rama', 'bharata', 'shatrughna', 'brahma', 'vasishtha', 'hanuman', 'sugriva', 'vibhishana', 'jambavan', 'vishnu', 'indra'],
     location: 'The Sarayu, a yojana and a half west of Ayodhya',
     description:
       'Rama walks out of the city in a single garment, carrying darbha grass, with Shri on his right and Bhumi on his left and the Vedas in the form of brahmins going before him; Bharata and Shatrughna walk behind with their families, and then the whole population of Ayodhya follows, and after them the animals and the birds, so that the city empties completely. Sugriva has already installed Angada and comes himself; Hanuman, Jambavan and Vibhishana are told to remain on earth as long as the age lasts. At the river Brahma speaks from the sky, calling him Vishnu and welcoming him home, and Rama enters the water with his brothers and resumes his own form. Valmiki ends by saying that everyone who entered the Sarayu that day — men, animals and birds alike — went to the world called Santanaka.',
