@@ -105,7 +105,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.14',
     order: 226,
-    characterIds: ['rama', 'sita', 'lakshmana', 'jatayu', 'dasharatha', 'sampati'],
+    characterIds: ['rama', 'sita', 'lakshmana', 'jatayu', 'sampati'],
     location: 'On the road to Panchavati',
     description:
       'A vulture of enormous size is sitting in their path, and Lakshmana reaches for his bow before the bird speaks. He names himself Jatayu, son of Aruna, brother of Sampati, and an old friend of Dasharatha, and recites the whole genealogy of the beings from Kashyapa and Daksha down to the birds. He offers to guard Sita whenever the brothers are away gathering food. Rama embraces him and accepts.',
@@ -265,7 +265,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'aranya',
     sarga: '3.46-49',
     order: 266,
-    characterIds: ['ravana', 'sita', 'rama', 'lakshmana', 'maricha'],
+    characterIds: ['ravana', 'sita', 'rama', 'lakshmana'],
     location: 'Panchavati, then the sky above Dandaka',
     description:
       'Ravana comes to the empty hut in the dress of a wandering mendicant, ochre robe, umbrella, staff and water-pot, and Sita receives him with the hospitality owed to a guest. He praises her, names himself, and offers her the rank of chief queen over his thousands of women; she answers that she is to Rama what a lioness is to a lion and that he is a jackal. He then takes his own form with ten heads and twenty arms, seizes her by the hair and the thighs, sets her in the ass-drawn aerial chariot and rises. Sita screams for Rama, for Lakshmana, for the trees and the Godavari to tell Rama which way she has gone.',
@@ -551,7 +551,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.53-55',
     order: 354,
-    characterIds: ['angada', 'hanuman', 'jambavan', 'sugriva', 'tara', 'vali', 'rama'],
+    characterIds: ['angada', 'hanuman', 'jambavan', 'sugriva', 'tara', 'rama'],
     location: 'The southern shore of the ocean',
     description:
       'Angada argues that Sugriva will certainly execute them for returning empty-handed after the month has passed, and that he himself, as Vali\'s son holding a crown prince\'s title by Rama\'s favour, will be the first killed; he proposes they all fast to death on the beach instead. Hanuman tries to talk him out of it, warning that Sugriva is not Vali. Tara the vanara and others agree with Angada and they spread kusha grass facing east, lie down and begin to recite their griefs — the deaths of Jatayu, of Dasharatha, the abduction, their own failure.',
@@ -621,7 +621,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.1',
     order: 406,
-    characterIds: ['hanuman', 'samudra', 'indra', 'vayu', 'sagara'],
+    characterIds: ['hanuman', 'samudra', 'indra', 'vayu'],
     location: 'The middle of the ocean',
     description:
       'The Ocean, remembering that the Sagara kings of Rama\'s line had dug him out, asks the golden mountain Mainaka — hidden beneath the water since Indra sheared the wings off the mountains and Vayu carried this one to safety — to rise and give Hanuman a resting place. Mainaka comes up through the water, and Hanuman touches him with his hand but will not stop, saying the sun has not set and he has given his word. He circles the mountain in salutation and goes on. The gods watching from above call it a feat worthy of worship in itself.',
@@ -719,7 +719,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.31-36',
     order: 446,
-    characterIds: ['hanuman', 'sita', 'rama', 'sugriva', 'dasharatha'],
+    characterIds: ['hanuman', 'sita', 'rama', 'sugriva'],
     location: 'The simsupa tree, Ashoka grove',
     description:
       'From the branches Hanuman begins, in a low voice, to recite the story of the Ikshvakus — Dasharatha, Rama, the exile, the abduction, the alliance with Sugriva — so that Sita hears it as if from nowhere. She looks up and sees a monkey and is certain it is Ravana in another shape; he answers her suspicion patiently, and at last drops down Rama\'s signet ring engraved with his name. She takes it, turns it over, and Valmiki says she was as glad as if she had got her husband back; her face, he writes, shone like the moon released from Rahu. Hanuman offers to carry her out on his back across the sea that night.',
@@ -785,7 +785,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.48',
     order: 466,
-    characterIds: ['indrajit', 'hanuman', 'ravana', 'brahma', 'akshayakumara'],
+    characterIds: ['indrajit', 'hanuman', 'ravana', 'brahma'],
     location: 'The Ashoka grove, Lanka',
     description:
       'Indrajit, who has defeated Indra, comes out and finds that ordinary weapons do nothing. He therefore invokes the Brahmastra, and Hanuman, who holds a boon from Brahma that makes him immune to it, chooses to be bound anyway — reasoning that he has not yet met Ravana face to face and that being dragged into the court is the fastest way to deliver Rama\'s message. The weapon releases him the moment the rakshasas add ordinary ropes, since a brahmastra will not coexist with a second bond, but Hanuman keeps up the pretence. He is hauled through the streets of Lanka to the assembly hall.',
@@ -799,7 +799,7 @@ export const middleEvents: StoryEvent[] = [
     kanda: 'sundara',
     sarga: '5.49-53',
     order: 470,
-    characterIds: ['hanuman', 'ravana', 'vibhishana', 'prahasta', 'sita', 'rama', 'sugriva', 'vali'],
+    characterIds: ['hanuman', 'ravana', 'vibhishana', 'prahasta', 'sita', 'rama', 'sugriva'],
     location: "Ravana's assembly hall, Lanka",
     description:
       'Hanuman, refusing to stand lower than the throne, coils his own tail into a seat higher than Ravana\'s, and delivers his message: he is the envoy of Sugriva, king of the vanaras; Ravana has already been humbled by Vali and by Kartavirya; let him return Sita and live, or Rama\'s arrows will empty Lanka. Ravana orders him killed on the spot. Vibhishana objects on grounds of law — an envoy may be punished but not executed; the recognised penalties are mutilation, flogging, shaving or branding — and Ravana, accepting the point, orders instead that his tail be wrapped in oiled cloth and set alight, since a monkey values his tail, and that he be paraded through the city.',

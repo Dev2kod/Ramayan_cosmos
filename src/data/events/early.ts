@@ -43,7 +43,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.42-44',
     order: -970,
-    characterIds: ['bhagiratha', 'ganga', 'shiva', 'brahma', 'sagara', 'parvati'],
+    characterIds: ['bhagiratha', 'ganga', 'shiva', 'brahma', 'parvati'],
     location: 'Gokarna, the Himalaya, and the plain to the eastern sea',
     description:
       'Bhagiratha, great-grandson of Amshuman, left his kingdom without an heir and stood a thousand years in penance at Gokarna until Brahma granted that Ganga would descend. Because the falling river would have split the earth, Shiva agreed to receive her on his head, and when she came down arrogantly, meaning to sweep him into the netherworld, he held her wandering in the coils of his matted hair for years until Bhagiratha begged again and she was released in seven streams. She followed Bhagiratha\'s chariot across the plain, flooded the sacrificial ground of the sage Jahnu, who drank her and then let her out through his ear, and at last reached the ash heaps of Sagara\'s sons and gave them the water of release. For this she is called Bhagirathi and Jahnavi.',
@@ -141,7 +141,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'uttara',
     sarga: '7.26',
     order: -860,
-    characterIds: ['ravana', 'kubera', 'sita'],
+    characterIds: ['ravana', 'kubera'],
     location: 'Mount Kailasa, in Kubera\'s grove',
     description:
       'Ravana intercepted the apsaras Rambha, who was going to meet Kubera\'s son Nalakubara and who named herself his daughter-in-law, and forced himself on her despite the kinship. Nalakubara poured water in his palm and pronounced the curse: if Ravana ever again went to a woman who did not desire him, his head would split into seven pieces. Valmiki says the gods in heaven cried out in relief when they heard it. It is this curse, and not any scruple, that keeps Ravana from laying hands on Sita through the long months in the ashoka grove.',
@@ -225,7 +225,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.11',
     order: -740,
-    characterIds: ['vali', 'dundubhi', 'sugriva', 'matanga', 'rama', 'samudra'],
+    characterIds: ['vali', 'dundubhi', 'sugriva', 'matanga', 'samudra'],
     location: 'The gate of Kishkindha and the Rishyamuka hill',
     description:
       'Sugriva tells Rama how the asura Dundubhi, in the shape of a mountainous buffalo, challenged the ocean and the Himalaya in turn and was sent on by each to Vali as the only being worth fighting. Vali dragged him out of the mouth of the cave at night, fought him for an hour, lifted him and dashed him to the ground until blood ran from every opening, then whirled the carcass and flung it a yojana away. Drops of the blood fell in the hermitage of the sage Matanga, who cursed Vali never to set foot on the Rishyamuka hill on pain of instant death. The dried skeleton still lay there like a hill when Rama kicked it ten bow-lengths with his toe to reassure Sugriva.',
@@ -239,7 +239,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'kishkindha',
     sarga: '4.9-10',
     order: -725,
-    characterIds: ['vali', 'sugriva', 'mayavi', 'ruma', 'angada', 'dundubhi'],
+    characterIds: ['vali', 'sugriva', 'mayavi', 'ruma'],
     location: 'The mouth of a cave near Kishkindha',
     description:
       'Mayavi, a son of Dundubhi, came by night to the gate of Kishkindha to avenge his father and roared a challenge. Vali ran out with Sugriva following, and the asura fled into a deep cave; Vali went in, told Sugriva to wait at the mouth, and did not come out. After a year Sugriva saw foaming blood flow from the opening, heard only the asura\'s voice inside, and concluded his brother was dead; he rolled a boulder over the mouth so the demon could not escape and returned to Kishkindha, where the ministers made him king because the throne could not stay empty. Vali, who had killed Mayavi, broke out, saw his brother crowned, and refused every explanation, driving Sugriva from the city, seizing his wife Ruma and hunting him across the earth.',
@@ -507,7 +507,7 @@ export const earlyEvents: StoryEvent[] = [
     kanda: 'bala',
     sarga: '1.70',
     order: 77,
-    characterIds: ['vasishtha', 'janaka', 'dasharatha', 'ikshvaku', 'sagara', 'bhagiratha', 'raghu', 'aja', 'harishchandra', 'rama', 'kushadhwaja', 'brahma'],
+    characterIds: ['vasishtha', 'janaka', 'dasharatha', 'ikshvaku', 'bhagiratha', 'raghu', 'aja', 'harishchandra', 'rama', 'kushadhwaja', 'brahma'],
     location: "Janaka's assembly hall at Mithila",
     description:
       'With Dasharatha arrived and the marriage to be settled, Vasishtha stood and recited the descent of the bridegrooms, as custom required before a royal alliance. He began from Brahma and came down through Marichi, Kashyapa, Vivasvan and Manu to Ikshvaku, the first king seated in Ayodhya, and so through Kukshi, Vikukshi, Anaranya, Prithu and Trishanku to Sagara, whose sixty thousand sons were burned to ash, to Amshuman and Dilipa and Bhagiratha who brought down the Ganga, and then through Kakutstha to Raghu, from whom the house takes the name Raghava, and at last to Aja, to Dasharatha, and to Rama and Lakshmana. Janaka answered with his own Videha line from Nimi and Mithi down to himself and his brother Kushadhwaja, and offered Sita and Urmila. Valmiki\'s list is not the Puranic one: Trishanku\'s son here is Dhundhumara, and the famously truthful Harishchandra, whom later tradition inserts in this dynasty, is not named in it at all.',
